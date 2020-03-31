@@ -17,6 +17,31 @@
 
 html {font-family: 'Kanit', sans-serif;}
 
+nav
+{ 
+    background: rgb(36,0,91);
+    background: linear-gradient(292deg, rgba(36,0,91,1) 4%, rgba(0,0,0,1) 100%);
+    
+}
+
+#navi a {color: white;
+    &:hover {
+    color: white;
+    opacity: 0.75;
+    &:visited {
+    color: white;
+    opacity: 0.5;
+  }
+  }
+}
+
+
+.navbar-brand {
+    padding-left: 30px;
+    
+}
+
+
 /*
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
